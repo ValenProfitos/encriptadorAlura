@@ -5,6 +5,7 @@
 Este proyecto consiste en un encriptador de textos, con el fin de intercambiar mensajes secretos con otras personas.
 
 Las "claves" de encriptación son las siguientes:
+
     - La letra "a" es convertida para "ai".
     - La letra "e" es convertida para "enter".
     - La letra "i" es convertida para "imes".
