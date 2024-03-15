@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/da2796024a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-logo-alura">
+            <a class="a-logo" href="https://www.aluracursos.com" target="_blank"><img src="./assets/images/Logo.png"
+                    alt="logo alura "></a>
+        </div>
+        <a href="" target="_self">
+            <h1 class="titulo">Encriptador de texto</h1>
+        </a>
+    </header>
+    <main>
+        <!-- Seccion encriptar -->
+        <section class="container-encriptar">
+            <div class="container-ingresar">
+                <div class="advertencia">
+                    <h6>Solo letras minusculas y sin acentos.</h6>
+                </div>
+                <div class="container-input-encriptar">
+                    <textarea name="texto-encriptar" id="texto-encriptar" cols="40" rows="25" placeholder="Ingrese su texto aqui..."></textarea>
+                </div>
+                <div class="btn-herramientas">
+                    <button class="btn" type="button" id="btn-borrar" value="Borrar">Borrar</button>
+                </div>
+                <div class="btn-inputs">
+                    <input type="button" value="Encriptar" id="btn-encriptar" class="btn">
+                    <input type="button" value="Desencriptar" id="btn-desencriptar" class="btn">
+                </div>
+            </div>
+        </section>
+        <!-- Seccion desencriptar -->
+        <section class="container-desencriptar">
+            <div class="container-resultado">
+                <div class="titulo-resultado">
+                    <h6>Resultado</h6>
+                </div>
+                <div class="container-cubierta" id="cubierta">
+                    <img src="./assets/images/Muñeco.png" alt="">
+                    <p class="message-1">Ningun mensaje fue encontrado</p>
+                    <p class="mensaje-2">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <div class="container-textarea-desencriptar
+                ">
+                    <textarea class="texto-desencriptar" name="texto-desencriptar" id="texto-desencriptar" cols="40"
+                        rows="25" readonly></textarea>
+                </div>
+                <div class="btn-herramientas" id="btn-herramientas">
+                    <button class="btn" id="btn-copiar" value="copiar">Copiar</button>
+                    <button class="btn" type="button" id="btn-borrar-2" value="borrar">Borrar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <section class="footer">
+            <div class="footer-links">
+                <img src="./assets/images/logochico.png" alt="" class="footer-logo">
+                <p>MADE BY VP</p>
+                <a href="https://www.linkedin.com/in/valentinaprofitos/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ValenProfitos"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
