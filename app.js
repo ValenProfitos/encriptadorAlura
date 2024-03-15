@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
       .replace(/e/g, "enter")
       .replace(/i/g, "imes")
       .replace(/o/g, "ober")
-      .replace(/u/g, "ufat")
-      .replace(/a/g, "ai");
+      .replace(/a/g, "ai")
+      .replace(/u/g, "ufat");
 
     texto;
 
@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
       .replace(/enter/g, "e")
       .replace(/imes/g, "i")
       .replace(/ober/g, "o")
-      .replace(/ufat/g, "u")
-      .replace(/ai/g, "a");
+      .replace(/ai/g, "a")
+      .replace(/ufat/g, "u");
     texto;
 
     textoTransformado.value = texto;
